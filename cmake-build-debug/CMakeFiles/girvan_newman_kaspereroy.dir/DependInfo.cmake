@@ -4,12 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
+  "/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/Graph.cpp" "/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.o"
   "/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/main.cpp" "/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o"
-=======
-  "/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/Graph.cpp" "/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.o"
-  "/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/main.cpp" "/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o"
->>>>>>> main
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

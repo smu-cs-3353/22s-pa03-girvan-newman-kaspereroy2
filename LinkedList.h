@@ -90,7 +90,7 @@ T LinkedList<T>::at(int position) {
     for(int i=0; i<position; i++){
         curr = curr->next;
     }
-    return curr;
+    return curr->data;
 }
 
 

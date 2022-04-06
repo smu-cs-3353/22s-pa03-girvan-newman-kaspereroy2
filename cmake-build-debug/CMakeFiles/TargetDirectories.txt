@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/girvan_newman_kaspereroy.dir
+=======
+/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/girvan_newman_kaspereroy.dir
+>>>>>>> main

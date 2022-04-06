@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug
+>>>>>>> main
 
 # Include any dependencies generated for this target.
 include CMakeFiles/girvan_newman_kaspereroy.dir/depend.make
@@ -59,6 +66,7 @@ include CMakeFiles/girvan_newman_kaspereroy.dir/flags.make
 
 CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o: CMakeFiles/girvan_newman_kaspereroy.dir/flags.make
 CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o: ../main.cpp
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o -c /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/main.cpp
 
@@ -69,18 +77,49 @@ CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.i: cmake_force
 CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/main.cpp -o CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o -c /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/main.cpp
+
+CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/main.cpp > CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.i
+
+CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/main.cpp -o CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.s
+
+CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.o: CMakeFiles/girvan_newman_kaspereroy.dir/flags.make
+CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.o: ../Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.o -c /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/Graph.cpp
+
+CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/Graph.cpp > CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.i
+
+CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/Graph.cpp -o CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.s
+>>>>>>> main
 
 # Object files for target girvan_newman_kaspereroy
 girvan_newman_kaspereroy_OBJECTS = \
-"CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o"
+"CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o" \
+"CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.o"
 
 # External object files for target girvan_newman_kaspereroy
 girvan_newman_kaspereroy_EXTERNAL_OBJECTS =
 
 girvan_newman_kaspereroy: CMakeFiles/girvan_newman_kaspereroy.dir/main.cpp.o
+girvan_newman_kaspereroy: CMakeFiles/girvan_newman_kaspereroy.dir/Graph.cpp.o
 girvan_newman_kaspereroy: CMakeFiles/girvan_newman_kaspereroy.dir/build.make
 girvan_newman_kaspereroy: CMakeFiles/girvan_newman_kaspereroy.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable girvan_newman_kaspereroy"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable girvan_newman_kaspereroy"
+>>>>>>> main
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/girvan_newman_kaspereroy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +132,10 @@ CMakeFiles/girvan_newman_kaspereroy.dir/clean:
 .PHONY : CMakeFiles/girvan_newman_kaspereroy.dir/clean
 
 CMakeFiles/girvan_newman_kaspereroy.dir/depend:
+<<<<<<< HEAD
 	cd /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2 /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2 /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/girvan_newman_kaspereroy.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2 /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2 /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/CMakeFiles/girvan_newman_kaspereroy.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> main
 .PHONY : CMakeFiles/girvan_newman_kaspereroy.dir/depend
 

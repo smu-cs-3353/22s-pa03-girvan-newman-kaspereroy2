@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2
+=======
+# Install script for directory: /mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2
+>>>>>>> main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +49,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> main
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

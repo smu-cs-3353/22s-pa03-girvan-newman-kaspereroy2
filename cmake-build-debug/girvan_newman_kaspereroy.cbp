@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="girvan_newman_kaspereroy">
-				<Option output="/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/girvan_newman_kaspereroy" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/girvan_newman_kaspereroy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 girvan_newman_kaspereroy"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 girvan_newman_kaspereroy"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="girvan_newman_kaspereroy/fast">
-				<Option output="/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/girvan_newman_kaspereroy" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/girvan_newman_kaspereroy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,17 +75,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 girvan_newman_kaspereroy/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 girvan_newman_kaspereroy/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/main.cpp">
+		<Unit filename="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/Graph.cpp">
 			<Option target="girvan_newman_kaspereroy"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Owner/CLionProjects/girvan-newman-kaspereroy/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/Graph.h">
+			<Option target="girvan_newman_kaspereroy"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/main.cpp">
+			<Option target="girvan_newman_kaspereroy"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Jeremy/Documents/GitHub/22s-pa03-girvan-newman-kaspereroy2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

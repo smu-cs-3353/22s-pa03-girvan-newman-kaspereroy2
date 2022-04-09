@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/Graph.cpp
-Graph.h
-/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/Graph.h
-
-/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/Graph.h
-LinkedList.h
-/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/LinkedList.h
-
-/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/LinkedList.h
+/mnt/c/Users/Owner/Desktop/22s-pa03-girvan-newman-kaspereroy2/main.cpp
 iostream
+-
+boost/graph/graph_utility.hpp
+-
+boost/property_map/property_map.hpp
+-
+boost/graph/visitors.hpp
+-
+boost/property_map/dynamic_property_map.hpp
+-
+boost/graph/adjacency_list.hpp
+-
+boost/graph/graphml.hpp
+-
+boost/graph/breadth_first_search.hpp
 -
 

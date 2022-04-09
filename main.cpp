@@ -6,7 +6,8 @@
 #include <boost/graph/adjacency_list.hpp>
 #include <boost/graph/graphml.hpp>
 #include <boost/graph/breadth_first_search.hpp>
-using namespace boost
+using namespace boost;
+using namespace std;
 enum files_e { dax_h, yow_h, boz_h, zow_h, foo_cpp,
     foo_o, bar_cpp, bar_o, libfoobar_a,
     zig_cpp, zig_o, zag_cpp, zag_o,

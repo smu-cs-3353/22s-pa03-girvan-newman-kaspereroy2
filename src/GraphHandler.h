@@ -7,7 +7,7 @@
 #include <boost/graph/graph_utility.hpp>
 #include <boost/graph/copy.hpp>
 #include <boost/graph/graphviz.hpp>
-
+#include <boost/graph/connected_components.hpp>
 #include <iostream>
 #include <fstream>
 #include <map>
@@ -132,16 +132,25 @@ public:
                 maxTraversed = it;
             }
             //For Testing stuff and stuff
-            std::cout << "Edge: ("<< it->first.first << ", " << it->first.second << ") Times Traversed:" << it->second << std::endl;
+            //std::cout << "Edge: ("<< it->first.first << ", " << it->first.second << ") Times Traversed:" << it->second << std::endl;
         }
         //std::cout << "Max Edge: (" << maxTraversed->first.first << ", " << maxTraversed->first.second << ") Times Traversed: " << maxTraversed->second << std::endl;
         return maxTraversed->first;
     }//end getHighestBetweenness
 
-    void girvanNewman(Graph& g){
-        //TODO modularity
-        printGraph(g);
+
+    //Takes in Graph g and a stopping point for the algorithm
+    //The function repeatedly calculates the paths of the current graph, and calculates which path is traversed
+    //The most before removing it and looping until the desired # of groups are reached.
+    void girvanNewman(Graph& g, int desired_groups){
+       // printGraph(g);
         while(num_edges(g)!= 0){
+            std::vector<int> useThis (boost::num_vertices (g));
+            auto num_groups =  boost::connected_components (g, &useThis[0]);
+            //std::cout << num_groups << std::endl;
+            if(num_groups >= desired_groups){
+                break;
+            }
             auto paths = getPaths(g);
             /* for error handling
             std::cout<<"PATHS:"<<std::endl;
@@ -156,10 +165,21 @@ public:
              */
             auto highestBetweenness = getHighestBetweenness(g,paths);
             remove_edge(highestBetweenness.first,highestBetweenness.second,g);
-            std::cout << "Removed (" << highestBetweenness.first << "," << highestBetweenness.second << ")" << std::endl;
-            printGraph(g);
+            //std::cout << "Removed (" << highestBetweenness.first << "," << highestBetweenness.second << ")" << std::endl;
+            //printGraph(g);
         }
-
+        //Final Graph
+        printGraph(g);
+    }
+    //p
+    void writeGraphViz(Graph& g, std::string fileName){
+        std::ofstream outputFile(fileName);
+        boost::write_graphviz(outputFile,g);
+    }
+    void writeGraphml(Graph& g, std::string fileName){
+        std::ofstream outputFile(fileName);
+        boost::dynamic_properties dp(boost::ignore_other_properties);
+        boost::write_graphml(outputFile,g,dp,true);
     }
 };
 

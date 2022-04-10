@@ -8,9 +8,7 @@ typedef boost::adjacency_list<boost::vecS, boost::vecS, boost::undirectedS> Grap
 
 int main() {
     GraphHandler handler;
-    Graph g = handler.readGraph("../data/football.graphml");
-    auto stuff = handler.getPaths(g);
-    //handler.printGraph(g);
-    //std::cout << "Idk: " << boost::vertices(g).first << std::endl;
+    Graph g = handler.readGraph("../data/test.graphml");
+    handler.girvanNewman(g);
     return 0;
 }

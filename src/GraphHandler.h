@@ -51,10 +51,10 @@ public:
         while(*start != *end) {
             //Source:https://cppsecrets.com/users/1453107109971219711010750555564103109971051084699111109/c00-boostGraphbreadthfirstsearch.php
             V curr_vertex = VID[*start];
-            std::vector<V> currPredecesor(boost::num_vertices(g));
+            std::vector<V> currPredecessor(boost::num_vertices(g));
             boost::breadth_first_search(g, curr_vertex, boost::visitor(
-                    boost::make_bfs_visitor(boost::record_predecessors(&currPredecesor[0], boost::on_tree_edge()))));
-            allPaths.push_back(currPredecesor);
+                    boost::make_bfs_visitor(boost::record_predecessors(&currPredecessor[0], boost::on_tree_edge()))));
+            allPaths.push_back(currPredecessor);
 
             start++;
         }

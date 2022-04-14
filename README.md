@@ -37,7 +37,9 @@ In addition to implementing this algorithm for the football dataset used in the 
 
 
 Check our medium series to learn about our extension!
-https://medium.com/@jeremywaibel/girvan-newman-introuction-1a296c67d89e
+<br> Part 1: https://medium.com/@jeremywaibel/girvan-newman-introuction-1a296c67d89e
+<br> Part 2: https://medium.com/@hazeleroy/an-alternative-method-of-community-detection-850f9578fb4a
+<br> Part 3: https://medium.com/@londonkasper/girvan-newman-v-louvain-33988baab55b
 
 
 

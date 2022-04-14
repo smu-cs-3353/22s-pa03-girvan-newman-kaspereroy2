@@ -37,6 +37,7 @@ In addition to implementing this algorithm for the football dataset used in the 
 
 
 Check our medium series to learn about our extension!
+https://medium.com/@jeremywaibel/girvan-newman-introuction-1a296c67d89e
 
 
 

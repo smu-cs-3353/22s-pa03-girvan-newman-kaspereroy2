@@ -11,6 +11,11 @@ This program takes a graphml file and populates an adjacency list that we visual
 Then, detects communities based on node connections. 
 In this example, we are using data from data from a network of American football games between Division IA colleges during regular season Fall 2000. Example input file:
 
+Our program requires 3 command line arguments -
+<br> argv[1] : The file that holds the graph. Must be in .graphml format
+<br> argv[2] : The desired number of groups/communities to break the graph into
+<br> argv[3] : The desired path for the output. Outputs are in .graphml format
+<br>
 
 ![](https://raw.githubusercontent.com/smu-cs-3353/22s-pa03-girvan-newman-kaspereroy2/main/images/data.png)
 
